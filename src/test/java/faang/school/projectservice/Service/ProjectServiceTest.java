@@ -37,7 +37,7 @@ public class ProjectServiceTest {
     private ProjectValidator projectValidator;
 
     @Spy
-    private ProjectMapper projectMapper = new ProjectMapperImpl();
+    private ProjectMapperImpl projectMapper;
 
     @InjectMocks
     private ProjectService projectService;

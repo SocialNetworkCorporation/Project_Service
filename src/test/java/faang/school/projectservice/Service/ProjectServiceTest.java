@@ -1,6 +1,7 @@
 package faang.school.projectservice.Service;
 
 import faang.school.projectservice.Mapper.ProjectMapper;
+import faang.school.projectservice.Mapper.ProjectMapperImpl;
 import faang.school.projectservice.Validation.ProjectValidator;
 import faang.school.projectservice.dto.client.ProjectDto;
 import faang.school.projectservice.exception.ProjectNotFoundException;
@@ -36,7 +37,7 @@ public class ProjectServiceTest {
     private ProjectValidator projectValidator;
 
     @Spy
-    private ProjectMapper projectMapper;
+    private ProjectMapper projectMapper = new ProjectMapperImpl();
 
     @InjectMocks
     private ProjectService projectService;

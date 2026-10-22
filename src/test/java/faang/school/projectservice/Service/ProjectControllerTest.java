@@ -39,12 +39,13 @@ public class ProjectControllerTest {
     @MockBean
     private UserContext userContext;
 
-    private ObjectMapper mapper = new ObjectMapper();
+    private ObjectMapper mapper;
 
     private ProjectDto dto;
 
     @BeforeEach
     void setUp() {
+        mapper = new ObjectMapper();
         dto = ProjectDto.builder()
                 .id(1L)
                 .name("Test")

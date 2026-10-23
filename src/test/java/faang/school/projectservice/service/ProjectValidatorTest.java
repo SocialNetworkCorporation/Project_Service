@@ -1,6 +1,6 @@
-package faang.school.projectservice.Service;
+package faang.school.projectservice.service;
 
-import faang.school.projectservice.Validation.ProjectValidator;
+import faang.school.projectservice.validation.ProjectValidator;
 import faang.school.projectservice.dto.client.ProjectDto;
 import faang.school.projectservice.exception.ProjectValidationException;
 import faang.school.projectservice.repository.ProjectRepository;

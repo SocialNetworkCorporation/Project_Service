@@ -1,4 +1,4 @@
-package faang.school.projectservice.Validation;
+package faang.school.projectservice.validation;
 
 import faang.school.projectservice.dto.client.ProjectDto;
 import faang.school.projectservice.exception.ProjectValidationException;

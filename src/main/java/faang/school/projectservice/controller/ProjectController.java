@@ -1,6 +1,6 @@
-package faang.school.projectservice.Controller;
+package faang.school.projectservice.controller;
 
-import faang.school.projectservice.Service.ProjectService;
+import faang.school.projectservice.service.ProjectService;
 import faang.school.projectservice.dto.client.ProjectDto;
 import faang.school.projectservice.model.ProjectStatus;
 import lombok.RequiredArgsConstructor;

@@ -30,6 +30,8 @@ import static org.mockito.Mockito.*;
 @ExtendWith(MockitoExtension.class)
 public class ProjectServiceTest {
 
+    fail("CI check");
+
     @Mock
     private ProjectRepository projectRepository;
 

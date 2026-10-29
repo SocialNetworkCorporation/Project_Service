@@ -15,4 +15,4 @@ jobs:
           java-version: '21'
           cache: 'gradle'
       - name: Run tests
-        run: ./gradlew test jacocoTestReport
+        run: ./gradlew test

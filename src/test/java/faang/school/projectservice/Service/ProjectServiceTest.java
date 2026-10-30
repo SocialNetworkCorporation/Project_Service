@@ -65,6 +65,8 @@ public class ProjectServiceTest {
         @Test
         void createProject_success() {
 
+            org.junit.jupiter.api.Assertions.fail("Проверка CI: тест намеренно сломан");
+
             when(projectMapper.toEntity(dto)).thenReturn(project);
             when(projectRepository.save(any(Project.class))).thenReturn(project);
             when(projectMapper.toDto(any(Project.class))).thenReturn(dto);

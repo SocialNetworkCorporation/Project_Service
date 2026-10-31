@@ -1,7 +1,7 @@
-package faang.school.projectservice.Service;
+package faang.school.projectservice.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import faang.school.projectservice.Controller.ProjectController;
+import faang.school.projectservice.controller.ProjectController;
 import faang.school.projectservice.config.context.UserContext;
 import faang.school.projectservice.dto.client.ProjectDto;
 import faang.school.projectservice.exception.ProjectNotFoundException;

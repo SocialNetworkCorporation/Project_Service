@@ -1,4 +1,4 @@
-package faang.school.projectservice.ExceptionHandler;
+package faang.school.projectservice.exceptionHandler;
 
 import faang.school.projectservice.exception.ErrorResponse;
 import faang.school.projectservice.exception.ProjectNotFoundException;
